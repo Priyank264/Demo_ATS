@@ -2,7 +2,7 @@ print('hi')
 print('this is issue')
 import streamlit as st
 st.title('priyank patel')
-st.title('ATS Branc')
+st.title('ATS Branch')
 import pandas as pb
-dataset=pb.read_csv("March Probable.csv")
+dataset=pb.read_excel("Bill Register.xlsx")
 st.dataframe(dataset)
